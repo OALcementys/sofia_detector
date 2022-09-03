@@ -1,0 +1,2 @@
+roi_align/crop_and_resize_cpu.cp38-win_amd64.pyd
+roi_align/crop_and_resize_gpu.cp38-win_amd64.pyd

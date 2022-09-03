@@ -1,0 +1,42 @@
+# Distribution / packaging
+.Python
+env/
+build/
+.ipynb_checkpoints/
+dist/
+database/
+checkpoints/
+database/
+checkpoints/
+siamese-triplet/
+priority_classes/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.pth
+*.hdf5
+*.egg
+node_modules
+__pycache__/
+*.pyc
+.coverage
+htmlcov
+cover
+*.ipynb
+/vis
+/kept_models
+# Serverless directories
+.serverless
+/pretrainned_weights
+Conglomerate Concrete Crack Detection - Trained Model/
+/Visualizing
+/seg_sofia
+*.odt
+CODEBRIM_original_images/
+torch_loader.py
