@@ -40,3 +40,6 @@ Conglomerate Concrete Crack Detection - Trained Model/
 *.odt
 CODEBRIM_original_images/
 torch_loader.py
+relabeling_annot/
+features/
+yolov5/

@@ -86,7 +86,8 @@ class ViTAdapter(object):
         # f3 (B, D, H//16, W//16)
         # f4 (B, D, H//32, W//32)
 
-        features=self.model(molded_images)
+        with torch.no_grad():
+            features=self.model(molded_images)
 
         ### running RPN on each feature map to get proposition on each
         layer_outputs=[]
@@ -233,7 +234,7 @@ def train_epoch(model, datagenerator, optimizer, steps):
         rpn_bbox = inputs[3]
         gt_class_ids = inputs[4]
         gt_boxes = inputs[5]
-        gt_masks = inputs[6]
+        ###gt_masks = inputs[6]
 
         # image_metas as numpy array
         image_metas = image_metas.numpy()
